@@ -21,9 +21,14 @@
 
     <div class="rulescontainer" id="rulescontainer" >
         <p>Choose a rule to apply:</p>
-        <input type="radio" name="rule" value="1" onClick="updateRule(this);" checked>Random choice.<br>
-        <input type="radio" name="rule" value="2" onClick="updateRule(this);">New random choice cannot equal the previous.<br>
-        <!--<input type="radio" name="rule" value="3" onClick="updateRule(this);"> And another one -->
+        <input type="radio" name="rule" value="1" onClick="updateRule(this);" checked>
+          Random choice.<br>
+        <input type="radio" name="rule" value="2" onClick="updateRule(this);">
+          New random choice cannot equal the previous.<br>
+        <input type="radio" name="rule" value="3" onClick="updateRule(this);">
+          New random choice cannot be one place away (anti-clockwise) from the previous choice. <br>
+        <input type="radio" name="rule" value="4" onClick="updateRule(this);">
+          New random choice cannot be two places away (anti-clockwise) from the previous choice. <br>
     </div>
 
 

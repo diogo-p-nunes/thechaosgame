@@ -2,13 +2,14 @@
     width: 20%; /* Width of the outside container */
     position: absolute;
     margin-top: 5%;
-    right: 10%;
+    right: 15%;
 }
 
 .rulescontainer {
     position: absolute;
     top: 30%;
-    right: 19%;
+    right: 5%;
+    width: 30%;
 }
 
 .slider {
